@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("tlo.jpg");
+}
+
+#container{
+    width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#logo{
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 3px;
+}
+
+.keys{
+    width: 100px;
+    height: 80px;
+    border: #1757A5 solid 2px;
+    border-radius: 10px;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    background-color:#022B5E;
+    color: white;
+    margin-top: 15%;
+    margin-left: 40px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+
+.channels{
+    margin-top: 100px;
+    text-align: center;
+    width: 320px;
+    height: 250px;
+    float: left;
+}
+
+
+
+.bttnRec{
+    text-decoration: none;
+    text-align: center;
+    background-color: #C52532;
+    color: #fff;
+    border: 2px solid #7D161E;
+    border-radius: 4px;
+    width: 90px;
+    line-height: 40px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.bttnRec:hover{
+    background-color: #8E0510;
+    color: #ffffff;
+    border-bottom: 2px solid #7D161E;
+    cursor: pointer;
+}
+
+.bttnPlay{
+    text-decoration: none;
+    text-align: center;
+    background-color: #19A31B;
+    color: #fff;
+    border: 2px solid #0F7A10;
+    border-radius: 4px;
+    width: 90px;
+    line-height: 40px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.bttnPlay:hover{
+    background-color: #1B911D;
+    color: #ffffff;
+    border-bottom: 2px solid #0F7A10;
+    cursor: pointer;
+}
