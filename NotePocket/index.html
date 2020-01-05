@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NotePocket</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/3a21056874.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="logo"><i class="far fa-clipboard"></i> Your notePocket</div>
+        <hr>
+        <div id="addNote">
+            <div id="form">
+                <form action="">
+                    <textarea name="text" id="titleNote" placeholder="Title (max length 40 characters)" maxlength="40"></textarea>
+                    <textarea name="content" id="contentNote" placeholder="Content of your note (max length 250 characters)" maxlength="250"></textarea>
+                    <!-- <textarea type="text" id="contentNote" placeholder="Content of your note" maxlength="250"></textarea> -->
+                    <div class="colorNote red active" data-color="red"></div>
+                    <div class="colorNote blue" data-color="blue"></div>
+                    <div class="colorNote orange" data-color="orange"></div>
+                    <div class="colorNote green" data-color="green"></div>
+                    <div class="colorNote pink" data-color="pink"></div>
+                    <button>Add note</button>
+                </form>
+            </div>
+
+            <div id="search">
+                <h1>Search</h1>
+                <input type="text" id="inputSearch" placeholder="Search...">
+            </div>
+        </div>
+
+        <div id="notes">
+            <div class="pinnNote"></div>
+
+        </div>
+    </div>
+
+
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFCC;
+    font-family: 'Courier Prime', monospace;
+}
+
+#container{
+    width: 80%;
+    /* height: 100vh; */
+    margin: auto;
+}
+
+#logo{
+    width: 100%;
+    height: 50px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+#addNote{
+    width: 305px;
+    min-height: 800px;
+    border-right: 1px solid #B49EC7;
+    float: left;
+}
+
+button{
+    font-size: 35px;
+    background-color: #59D83A;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid #469233;
+    font-family: 'Courier Prime', monospace;
+}
+
+button:hover{
+    background-color: #69E54A;
+    cursor: pointer;
+}
+
+#titleNote{
+    border-radius: 4px;
+    border: 2px solid #C7C462;
+    width: 270px;
+    height: 60px;
+    box-sizing: border-box;
+    resize: none;
+    /* text-align: center; */
+    font-size: 20px;
+}
+
+#contentNote{
+    border-radius: 4px;
+    border: 2px solid #C7C462;
+    width: 270px;
+    height: 250px;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.colorNote{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 15px 15px 0 9px;
+    float: left;
+    cursor: pointer;
+}
+
+.red{
+    background-color: #E14641;
+}
+.blue{
+    background-color: #6E90EE;
+}
+.orange{
+    background-color: #FFA41B;
+}
+.green{
+    background-color: #3DA20B;
+}
+.pink{
+    background-color: pink;
+}
+
+.active{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+
+#inputSearch{
+    width: 270px;
+    height: 40px;
+    border-radius: 4px;
+    border: 2px solid #C7C462;
+    font-size: 20px;
+}
+
+h1{
+    margin-top: 50px;
+    font-family: 'Courier Prime', monospace;
+    margin-left: 68px;
+}
+
+#notes{
+    width: 1170px;
+    min-height: 800px;
+    float: left;
+    margin-left: 40px;
+}
+
+.note{
+    width: 265px;
+    min-height: 300px;
+    margin-right: 22px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    border-radius: 7px;
+    float: left;
+}
+.topSide{
+    width: 100%;
+    min-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+}
+.noteTitle{
+    width: 200px;
+    /* height: 40px; */
+    text-align: center;
+    word-wrap: break-word;
+    float: left;
+}
+.noteContent{
+    width: 100%;
+    height: 200px;
+    font-size: 14px;
+    margin-top: 20px;
+    word-wrap: break-word;
+    clear: both;
+    border-bottom: 2px solid black;
+}
+.noteDate{
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+#icons{
+    width: 60px;
+    display: inline-block;
+
+}
+.iconRemove{
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    float: left;
+
+}
+.iconPinn{
+    width: 30px;
+    float: left;
+    cursor: pointer;
+}
+i.far.fa-times-circle{
+    font-size: 20px;
+}
+i.far.fa-times-circle:hover{
+    color: #CDEDF5;
+}
+
+i.fas.fa-thumbtack{
+    font-size: 20px;
+}
+i.fas.fa-thumbtack:hover{
+    color: #CDEDF5;
+}
+.pinnNote{
+    width: 100%;
+}
