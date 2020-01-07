@@ -1,0 +1,115 @@
+/* * {
+    font-family: 'Lato', sans-serif;
+} */
+body{
+    background-image: url('tlo.jpg');
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    margin: 10px;
+}
+
+.editor{
+    width: 95%;
+    height: auto;
+}
+
+.tools{
+    float: left;
+    width: 30%;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.js-tool{
+    cursor: pointer;
+}
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column
+}
+
+.flex-jc-center {
+    justify-content: center;
+}
+
+input[type="file"]{
+    border: 2px solid #F3AE36;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    background: #48AE67;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    border: 2px solid #F3AE36;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    background: #48AE67;
+    margin: 10px 0;
+    padding: 5px 20px;
+}
+
+button:hover {
+    background: rgba(0,0,0,0.2);
+}
+
+button.selected {
+    background: #244752;
+    color: white;
+}
+
+canvas {
+    border: 1px solid #244752;
+    margin: 10px;
+}
+
+.color{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 15px 15px 0 9px;
+    float: left;
+    cursor: pointer;
+}
+.red{
+    background-color: #E14641;
+}
+.blue{
+    background-color: #6E90EE;
+}
+.orange{
+    background-color: #FFA41B;
+}
+.green{
+    background-color: #3DA20B;
+}
+.black{
+    background-color: black;
+}
+
+.active{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    border: 2px solid #E5F31B;
+    cursor: pointer;
+
+}

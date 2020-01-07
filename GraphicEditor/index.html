@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Graphic Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="editor">
+        <h1>Graphic Editor</h1>
+        <div class="tools">
+            <input type="file" id="load"><br>
+            <button class="js-tool" data-tool="pencil">Pencil</button>
+            <button class="js-tool" data-tool="brush">Brush</button>
+            <div class="color red active" data-color="red"></div>
+            <div class="color blue" data-color="blue"></div>
+            <div class="color orange" data-color="orange"></div>
+            <div class="color green" data-color="green"></div>
+            <div class="color black" data-color="black"></div>
+            <p>
+                <label for="brightness">Brightness</label>
+                <input id="brightness" name="brightness" type="range" min="-3" max="3" step="1" value="0">
+            </p>
+            <button id="blackAndWhite" class="js-tool">Black White</button>
+            <button id="redFilter" class="js-tool">Red Filter</button><br>
+            <button id="reset" class="js-tool">Reset</button>
+        </div>
+    </div>
+            <canvas width="1250px" height="600px"></canvas>
+    </div>
+
+    <div class="flex flex-row flex-jc-center">
+        <div class="js-tools"></div>
+        <div class="flex flex-column">
+            <div class="js-canvas"></div>
+            <div class="js-context"></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
