@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NotePocket</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="AddNote.js"></script>
+    <script src="note.js"></script>
+    <script src="main.js"></script>
+    <script src="app.js"></script>
     <script src="https://kit.fontawesome.com/3a21056874.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
 </head>
@@ -19,11 +23,11 @@
                     <textarea name="text" id="titleNote" placeholder="Title (max length 40 characters)" maxlength="40"></textarea>
                     <textarea name="content" id="contentNote" placeholder="Content of your note (max length 250 characters)" maxlength="250"></textarea>
                     <div class="colorNote red active" data-color="red"></div>
-                    <div class="colorNote blue" data-color="blue"></div>
+                    <div class="colorNote blue " data-color="blue"></div>
                     <div class="colorNote orange" data-color="orange"></div>
                     <div class="colorNote green" data-color="green"></div>
                     <div class="colorNote pink" data-color="pink"></div>
-                    <button>Add note</button>
+                    <button id="btnAddNote">Add note</button>
                 </form>
             </div>
 
@@ -40,7 +44,5 @@
     </div>
 
 
-
-<script src="main.js"></script>
 </body>
 </html>
